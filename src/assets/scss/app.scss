@@ -1,0 +1,111 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+
+/* SW OVERRIDES */
+td.columns, td.column, th.columns, th.column{
+    padding-bottom: 0;
+}
+td{
+word-wrap: normal;
+-moz-hyphens: none;
+hyphens: none;
+}
+a:hover{
+    cursor: pointer;
+}
+
+.mobOnly{
+    display: none !important;
+}
+.desktopHide { max-height: 0px; font-size: 0; display: none; }
+
+
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+.msoFix {
+    mso-table-lspace:-1pt;
+    mso-table-rspace:-1pt;
+ }
+
+ @media only screen and (max-device-width: 480px) {
+    td[class="headercell"] {
+        background-image: url(../assets/img/intratone/headlineMobile.png);
+        width: 100%;
+        height: 90px !important;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    td[class="headercell"] img {
+        display: none !important;
+    }
+    }
+
+@media only screen and (max-width: #{$global-breakpoint}) {
+    .desktopHide { max-height: none !important; font-size: 12px !important; display: block !important; }
+    .mobFull{
+        width: 100% !important;
+        display: block;
+        max-width: 100% !important;
+    }
+    .mobHeader{
+        width: 100% !important;
+        display: table;
+    }
+    .mobHide{
+        display: none !important;
+    }
+    .mobCenter{
+        text-align: center !important;
+        margin: 0 auto;
+    }
+    .mobOnly{
+        display: block !important;
+        width: 100%;
+    }
+    .mobCTA{
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto;
+    }
+    .mobCTAwidth{
+        width: 70% !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+    table.body .columns, table.body .column {
+        padding-left: 6% !important;
+        padding-right: 6% !important;
+    }
+    table img {
+        height: auto !important;
+    }
+    .marginBtm{
+        margin-bottom: 30px;
+    }
+    .mobColumn{
+        width: 35px;
+        display: block !important;
+    }
+    table.body td .heroImg{
+        width: 75% !important;
+        margin: 0 auto;
+    }
+    .socialIcon{
+        display: inline-block;
+    }
+
+}
+
+
+
+
