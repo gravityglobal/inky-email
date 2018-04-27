@@ -3,6 +3,10 @@
 
 @import 'template/template';
 
+@import 'aviva/styles';
+
+
+
 
 /* SW OVERRIDES */
 td.columns, td.column, th.columns, th.column{
@@ -86,9 +90,9 @@ a[x-apple-data-detectors] {
         padding-left: 6% !important;
         padding-right: 6% !important;
     }
-    table img {
-        height: auto !important;
-    }
+    // table img {
+    //     height: auto !important;
+    // }
     .marginBtm{
         margin-bottom: 30px;
     }

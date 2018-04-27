@@ -16,7 +16,34 @@
 // 1. Global
 // ---------
 
-$primary-color: #c3d600;
+///ISM 
+// $primary-color: #c3d600;
+// $secondary-color: #777777;
+
+///AVIVA
+$primary-color : #ffd900;
+$avivaYellow : #ffd900;
+$tertiary-color: #202d34;
+$avivaInvestorsGrey : #293741;
+$slate : #444444;
+$concrete : #a6b2bc;
+$sand : #f5f5f5;
+$space : #0C1115;
+
+$global-width: 720px;
+$global-gutter: 60px;
+
+$white: #fefefe;
+$body-background: $white;
+$container-background: $white;
+$global-padding: 16px;
+$global-margin: 16px;
+
+
+
+///BASE STYLES
+
+// $primary-color: #c3d600;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -25,15 +52,15 @@ $light-gray: #e1e1e1;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
-$white: #fefefe;
+// $white: #fefefe;
 $pre-color: #ff6908;
-$global-width: 600px;
+
 $global-width-small: 100%;
 $global-gutter: 39px;
-$body-background: $white;
-$container-background: $white;
-$global-padding: 16px;
-$global-margin: 16px;
+// $body-background: $white;
+// $container-background: $white;
+// $global-padding: 16px;
+// $global-margin: 16px;
 $global-radius: 3px;
 $global-rounded: 500px;
 $global-breakpoint: $global-width + $global-gutter;
